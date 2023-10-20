@@ -1,0 +1,26 @@
+
+                                                               hotfix/hf1
+                                              ------------------------------------------------------------------           
+                                                create a hotfix branch to pach the production release       |
+                                                                                                            | 
+        master branch is used for production releases                                                       | 
+--------------------------------------------------------------------------------------------------------------
+|       master branch                                                                                       | hotfix are integrated -
+|                                                                             bugfix1  bugfix2              | into both master and develop
+|                                                              release branch    |        |                 |
+| ----> a develop branch is created from the master branch    ------------------------------------------    |
+|                                                                         |      |        |                 |
+|   the develop branch contain all stable features for the next release   |      |        |                 | 
+-----------------------------------------------------------------------------------------------------------------------
+|    develop branch                                                 |       |    |        |                 |  
+|       |       integrate when the feature is stable and tested     |       |    |        |                 |
+|       ----------------------------------------------------------------    |    |        |                 |
+|           |                                                               | changes on the develop branch must -
+|           |                                                               | be merge back in to feature branchs
+|        feature/f2                                                         |    |        |                 |  
+|                                                                           |    |        |                 |
+|    create many feature branch as you like                                 |    |        |                 |
+-----------------------------------------------------------------------------------------------------------------------
+    |   
+    |            
+feature/f1
