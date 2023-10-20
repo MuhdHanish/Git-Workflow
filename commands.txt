@@ -1,0 +1,7 @@
+1. git flow init -> It initializes your Git repository to use the Git Flow branching model.
+
+2. git push --set-upstream origin develop -> The git push --set-upstream origin develop command is used to push a local branch -
+ (in this case, the "develop" branch) to a remote repository and set up the local branch to track the remote branch with the same name.
+
+3. git flow feature start feature_branch -> This command helps you follow the Git Flow branching model, making it easier to manage -
+ the development of new features in a structured and organized manner, particularly in a collaborative software development environment.
