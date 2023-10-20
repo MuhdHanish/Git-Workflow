@@ -5,3 +5,12 @@
 
 3. git flow feature start feature_branch -> This command helps you follow the Git Flow branching model, making it easier to manage -
  the development of new features in a structured and organized manner, particularly in a collaborative software development environment.
+
+4. git flow feature finish feature_branch -> This  command is used to finish or complete a feature branch in a Git repository that follows -
+   the Git Flow branching model. 
+   -> It merges the feature branch back into the "develop" branch. This incorporates the changes made in the feature branch into the ongoing development work.
+   -> It deletes the feature branch because it's no longer needed.
+   -> It switches your working directory back to the "develop" branch.
+
+   * This command helps maintain the organized and structured development process defined by the Git Flow branching model, making it easier to - 
+      manage the completion of new features in a collaborative software development environment.
